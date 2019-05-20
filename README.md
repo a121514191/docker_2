@@ -21,9 +21,11 @@
 之後便可成功下載
 
 ### 之後先進入centos
+
 >docker run -i -t centos
 
-之後類似虛擬機可在裡面下指令
+![](https://blog.johnwu.cc/images/x404.png)
+之後可在裡面下指令
 
 ### 我想用這個當基礎來建立環境，所以我先commit他的image(自首不能大寫)
 >docker commit 853d first-centos
