@@ -24,21 +24,29 @@
 
 >docker run -i -t centos
 
-![](https://blog.johnwu.cc/images/x404.png)
+![](https://github.com/a121514191/docker_2/blob/master/centos.PNG)
+
 之後可在裡面下指令
 
 ### 我想用這個當基礎來建立環境，所以我先commit他的image(自首不能大寫)
+
 >docker commit 853d first-centos
+
+![](https://github.com/a121514191/docker_2/blob/master/commit.PNG)
 
 ### commit完之後便可以看到該名稱在我們的images裡
 
+![](https://github.com/a121514191/docker_2/blob/master/images.PNG)
+
 ### 之後我嘗試在裡面安裝http,mysql,apache,php
+
 >docker run -i -t first-centos
 >yum install httpd
 >systemctl start httpd.service
 
 但在安裝完後httpd後
 卡在 systemctl start httpd.service 
+
 
 ### 經查詢後
 Docker的設計理念是在容器里面不運行後台服務
