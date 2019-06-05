@@ -19,7 +19,7 @@
 
 reset之後便可成功下載
 
-### 之後先進入centos
+### 執行centos images (產生container/容器)
 
 >docker run -i -t centos
 
